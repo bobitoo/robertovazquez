@@ -8,12 +8,79 @@
 	position: relative;
 	max-width:100%;
 }
+.backgroundvid {
+	width:100%;
+	position: absolute;
+	z-index: -1;
+}
 
 html {
 	margin:0;
 	padding:0;
 	background-color: black;
 	max-width:100%;
+}
+h1 {
+	color:white;
+}
+
+.rvlogo{
+	width:110%;
+	left:5%;
+	position:relative;
+
+}
+
+.about1 {
+	width:100%;
+	left:0;
+	position:relative;
+	display: flex;
+	top:10%;
+	height:80vh;
+	color:white;
+	font-size:50vw;
+	z-index: 100;
+}
+.about2 {
+	width:30%;
+	left:3%;
+	position:relative;
+	top:0;
+	color:white;
+	font-size:50vw;
+}
+.about3 {
+	width:70%;
+	left:0;
+	position:relative;
+	top:0%;
+	color:white;
+	font-size:50vw;
+}
+
+.abouttext1 {
+	width: 70%;
+	left: 0;
+	position: relative;
+	top: 35%;
+	height: 30%;
+	color: white;
+	font-size: 50vw; 
+	z-index: 10;
+	overflow: visible;
+}
+
+.abouttext2 {
+	width: 70%;
+	left: 3%;
+	position: relative;
+	top: 0%;
+	height: 30%;
+	color: white;
+	font-size: 10vw;  
+	z-index: 10;
+	overflow: visible;
 }
 
 
