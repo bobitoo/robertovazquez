@@ -501,6 +501,12 @@ a {
 	position: relative;
 	margin-top:35%;
 }
+.works7 {
+	width:80%;
+	height:fit-content;
+	position: relative;
+	margin-top:35%;
+}
 .workspic2 {
 	width:80%;
 	height:20%;
@@ -537,6 +543,14 @@ a {
 
 }
 .workspic6 {
+	width:80%;
+	height:20%;
+	background-color: aliceblue;
+	left:10%;
+	position: relative;
+
+}
+.workspic7 {
 	width:80%;
 	height:20%;
 	background-color: aliceblue;
