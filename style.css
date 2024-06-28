@@ -104,22 +104,22 @@ h1 {
 	font-size:50vw;
 }
 .about3 {
-	width:70%;
-	left:0;
+	width:35%;
+	left:35%;
 	position:relative;
-	top:0%;
+	top:140%;
 	color:white;
-	font-size:50vw;
+	font-size:15vw;
 }
 
 .abouttext1 {
 	width: 70%;
-	left: 0;
+	left:4%;
 	position: relative;
-	top: 35%;
+	top: 195%;
 	height: 30%;
 	color: white;
-	font-size: 50vw; 
+	font-size: 15vw; 
 	z-index: 10;
 	overflow: visible;
 }
@@ -128,10 +128,9 @@ h1 {
 	width: 70%;
 	left: 3%;
 	position: relative;
-	top: 0%;
 	height: 30%;
 	color: white;
-	font-size: 10vw;  
+	font-size: 3vw;  
 	z-index: 10;
 	overflow: visible;
 }
@@ -658,4 +657,28 @@ a {
 	height:auto;
 	display: inline-flex;
 	position: relative;
+}
+
+.ttw1 {
+	width:70%;
+	height:400%;
+	display:block;
+	position: relative;
+	top:240%;
+	left:5%;
+}
+
+.ttw2 {
+	width:35%;
+	height:auto;
+	display: inline-flex;
+	position: relative;
+	margin-bottom:5%;
+}
+.ttw3 {
+	width:70%;
+	height:auto;
+	display: inline-flex;
+	position: relative;
+	margin-bottom:5%;
 }
