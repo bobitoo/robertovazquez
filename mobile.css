@@ -40,9 +40,9 @@ h1 {
     align-items: center;
     color:white;
     mix-blend-mode: difference;
-    margin-top:305%;
+    margin-top:145%;
 	margin-bottom:35%;
-	right:12%;
+	right:10%;
 
 }
 .form:hover {
@@ -669,3 +669,19 @@ a {
 	position: relative;
 }
 
+
+
+.contact {
+	width:80%;
+	left:10%;
+	top:70%;
+	align-items: center;
+	justify-content: center;
+	display:block;
+	position: relative;
+}
+.contact1 {
+	width: 100%;
+	font-size: 10vw;
+	color: aliceblue;
+}

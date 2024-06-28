@@ -25,10 +25,15 @@ h1 {
 }
 
 .rvlogo{
-	width:110%;
-	left:5%;
+	width:25%;
+	left:0%;
 	position:relative;
-
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	mix-blend-mode: difference;
+	z-index: -1;
+	fill: black;
 }
 
 .form {
@@ -107,7 +112,7 @@ h1 {
 	width:35%;
 	left:35%;
 	position:relative;
-	top:140%;
+	top:130%;
 	color:white;
 	font-size:15vw;
 }
@@ -126,9 +131,10 @@ h1 {
 
 .abouttext2 {
 	width: 70%;
-	left: 3%;
+	left: 5%;
 	position: relative;
 	height: 30%;
+	top:130%;
 	color: white;
 	font-size: 3vw;  
 	z-index: 10;
