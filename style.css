@@ -482,13 +482,17 @@ a {
 	margin-right:15%;
 }
 
+.worksmain {
+	margin-top:100%;
+}
+
 .works1 {
 	width:50%;
 	left:30%;
 	display: flex;
+	height:fit-content;
 	position: relative;
-	top:120%;
-	margin-top:45%;
+	margin-bottom:15%;
 }
 
 .works2 {
@@ -497,8 +501,7 @@ a {
 	display: flex;
 	height:fit-content;
 	position: relative;
-	margin-top:55%;
-	top:55%
+	margin-bottom:15%;
 }
 .works3 {
 	width:50%;
@@ -506,8 +509,7 @@ a {
 	display: flex;
 	height:fit-content;
 	position: relative;
-	margin-top:45%;
-	top:45%
+	margin-bottom:15%;
 }
 .works4 {
 	width:50%;
@@ -515,8 +517,7 @@ a {
 	display: flex;
 	height:fit-content;
 	position: relative;
-	margin-top:45%;
-	top:45%
+	margin-bottom:15%;
 }
 .works5 {
 	width:50%;
@@ -524,10 +525,43 @@ a {
 	display: flex;
 	height:fit-content;
 	position: relative;
-	margin-top:45%;
-	top:45%
+	margin-bottom:15%;
 }
 .works6 {
+	width:50%;
+	left:30%;
+	display: flex;
+	height:fit-content;
+	position: relative;
+	margin-bottom:15%;
+}
+.works7 {
+	width:50%;
+	left:30%;
+	display: flex;
+	height:fit-content;
+	position: relative;
+	margin-bottom:15%;
+}
+.works8 {
+	width:50%;
+	left:30%;
+	display: flex;
+	height:fit-content;
+	position: relative;
+	margin-bottom:15%;
+
+}
+.works9 {
+	width:50%;
+	left:30%;
+	display: flex;
+	height:fit-content;
+	position: relative;
+	
+	top:45%
+}
+.works10 {
 	width:50%;
 	left:30%;
 	display: flex;
@@ -561,7 +595,26 @@ a {
 	width: 50%;
 
 }
+.workspic7 {
+	max-width: 50%;
+	width: 50%;
 
+}
+.workspic8 {
+	max-width: 50%;
+	width: 50%;
+
+}
+.workspic9 {
+	max-width: 50%;
+	width: 50%;
+
+}
+.workspic10 {
+	max-width: 50%;
+	width: 50%;
+
+}
 .workspic1 {
 	max-width: 50%;
 	width: 50%;
