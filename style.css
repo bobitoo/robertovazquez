@@ -117,12 +117,19 @@ h1 {
 	font-size:15vw;
 }
 
+.aboutdivmain {
+	position: absolute;
+	display: block;
+	top:0;
+}
+
 .abouttext1 {
 	width: 70%;
+	height:auto;
+	margin-top:15%;
+	margin-bottom:0;
 	left:4%;
 	position: relative;
-	top: 195%;
-	height: 30%;
 	color: white;
 	font-size: 15vw; 
 	z-index: 10;
@@ -133,8 +140,19 @@ h1 {
 	width: 70%;
 	left: 5%;
 	position: relative;
-	height: 30%;
-	top:130%;
+	height: auto;
+	margin-top:0%;
+	color: white;
+	font-size: 3vw;  
+	z-index: 10;
+	overflow: visible;
+}
+.abouttext22 {
+	width: 70%;
+	right: 5%;
+	position: relative;
+	height: auto;
+	margin-top:0%;
 	color: white;
 	font-size: 3vw;  
 	z-index: 10;
@@ -442,7 +460,8 @@ a {
 .side-panel {
     position: fixed;
     top: 35%;
-    right: -24%;
+	display: block;
+    right: -14vw;
     width: 40%;
     border-radius: 10%;
     background-color:transparent;
@@ -455,6 +474,7 @@ a {
 .side-panel-home {
     position: absolute;
     top: 45%;
+	display: block;
     right: 24%;
     width: 40%;
 	width:25%;
@@ -466,30 +486,53 @@ a {
     transition: right 0.5s;
     z-index: 999;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1951px) {
 	.side-panel {
-		width: 47%;
-		right: -130px;
+		width: 45%;
+		right: -40vw
 	}
   }
-@media screen and (max-width: 395px) {
+
+  @media screen and (max-width: 1851px) {
 	.side-panel {
-		width: 47%;
-		right: -110px;
+		width: 45%
 	}
   }
-@media screen and (max-width: 376px) {
+
+  @media screen and (max-width: 1951px) {
 	.side-panel {
-		width: 47%;
-		right: -106px;
+		width: 45%
 	}
   }
-  @media screen and (max-width: 326px) {
+
+  @media screen and (max-width: 1951px) {
 	.side-panel {
-		width: 57%;
-		right: -115px;
+		width: 45%
 	}
   }
+
+  @media screen and (max-width: 1951px) {
+	.side-panel {
+		width: 45%
+	}
+  }
+
+  @media screen and (max-width: 1951px) {
+	.side-panel {
+		width: 45%
+	}
+  }
+
+  @media screen and (max-width: 1951px) {
+	.side-panel {
+		width: 45%
+	}
+  }
+
+
+
+
+
 
 .side-panel ul {
     list-style: none;

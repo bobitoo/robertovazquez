@@ -3,11 +3,11 @@ function toggleMenu() {
     const mainContent = document.getElementById('mainContent');
 
     if (sidePanel.style.right === '0px') {
-        sidePanel.style.right = '-35%';
-        mainContent.style.marginRight = '0';
+        sidePanel.style.display = 'block';
+        mainContent.style.display = 'block';
     } else {
-        sidePanel.style.right = '0';
-        mainContent.style.marginRight = '59%';
+        sidePanel.style.display = 'none';
+        mainContent.style.display = 'none';
     }
 }
 
