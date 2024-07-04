@@ -2,12 +2,12 @@ function toggleMenu() {
     const sidePanel = document.getElementById('sidePanel');
     const mainContent = document.getElementById('mainContent');
 
-    if (sidePanel.style.right === '0px') {
-        sidePanel.style.display = 'block';
-        mainContent.style.display = 'block';
+    if (sidePanel.style.top === '15%') {
+        sidePanel.style.top = '-55%';
+        mainContent.style.marginTop = '0';
     } else {
-        sidePanel.style.display = 'none';
-        mainContent.style.display = 'none';
+        sidePanel.style.top = '15%';
+        mainContent.style.marginTop = '99%';
     }
 }
 

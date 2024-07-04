@@ -146,6 +146,17 @@ h1 {
 	z-index: 10;
 	overflow: visible;
 }
+.abouttext22 {
+	width: 70%;
+	right: 5%;
+	position: relative;
+	height: auto;
+	margin-top:0%;
+	color: white;
+	font-size: 3vw;  
+	z-index: 10;
+	overflow: visible;
+}
 .abouttext3 {
 	width: 60%;
 	left: 5%;
@@ -241,7 +252,7 @@ h1 {
 	display:flex;
 	position: fixed;
 	left:5%;
-	top:30%;
+	top:40%;
 }
 
 
@@ -251,6 +262,7 @@ h1 {
 	position: fixed;
 	left:8%;
 	margin-top:10%;
+	z-index: 100;
 }
 .alogo {
 	width: fit-content;
@@ -394,12 +406,13 @@ header {
 	margin-right:2%;
 	position: fixed;
 	right:5%;
-
+	z-index: 1000;
 }
 
 .main-content {
     padding: 60px 20px 20px 20px;
     transition: margin-right 0.5s;
+	top:-55%;
 }
 a {
 	text-decoration: none;
@@ -407,39 +420,18 @@ a {
 
 .side-panel {
     position: fixed;
-    top: 45%;
-    right: -100px;
+    top: -55%;
+    right: 10%;
     width: 40%;
     border-radius: 10%;
     color: white;
+	background-color: black;
+	border-style: solid;
+	border-color: whitesmoke;
     overflow-y: auto;
-    transition: right 0.5s;
+    transition: top 1.5s;
     z-index: 999;
 }
-@media screen and (max-width: 430px) {
-	.side-panel {
-		width: 47%;
-		right: -130px;
-	}
-  }
-@media screen and (max-width: 395px) {
-	.side-panel {
-		width: 47%;
-		right: -110px;
-	}
-  }
-@media screen and (max-width: 376px) {
-	.side-panel {
-		width: 47%;
-		right: -106px;
-	}
-  }
-  @media screen and (max-width: 326px) {
-	.side-panel {
-		width: 57%;
-		right: -115px;
-	}
-  }
 
 .side-panel ul {
     list-style: none;
@@ -475,7 +467,7 @@ a {
 	width:80%;
 	height:fit-content;
 	position: relative;
-	margin-top:165%;
+	margin-top:100%;
 }
 
 .works2 {
@@ -701,13 +693,12 @@ a {
 	align-items: center;
 	justify-content: center;
 	height: fit-content;
-	z-index: 1001;
 }
 
 .sitetitle1 {
 	color:white;
 	font-size: 8vw;
-	margin-top:70%;
+	margin-top:92%;
 	display: block;
 	position: fixed;
 	mix-blend-mode: difference;
@@ -715,8 +706,9 @@ a {
 .sitetitle2 {
 	color:white;
 	font-size: 3vw;
-	margin-top:93%;
+	margin-top:103%;
 	margin-left:20%;
 	display: block;
 	position: fixed;
+	mix-blend-mode: difference;
 }
