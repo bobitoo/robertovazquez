@@ -437,6 +437,21 @@ header {
     padding: 0 20px;
     cursor: pointer;
 	margin-right:2%
+
+}
+
+.menu-icon:hover {
+	opacity: 0.8;
+	transition-duration: 0.5s;
+}
+
+.menulink:hover {
+	opacity: 0.8;
+	transition-duration: 0.5s;
+}
+.logobutton:hover {
+	opacity: 0.8;
+	transition-duration: 0.5s;
 }
 
 .main-content {
@@ -449,9 +464,9 @@ a {
 
 .side-panel {
     position: fixed;
-    top: 35%;
+    top: 15%;
 	display: block;
-    right: -14vw;
+    right: -25%;
     width: 40%;
     border-radius: 10%;
     background-color:transparent;
@@ -465,8 +480,8 @@ a {
     position: absolute;
     top: 45%;
 	display: block;
-    right: 24%;
-    width: 40%;
+    right: 4%;
+    width: 80%;
 	width:25%;
 	height:25%;
     border-radius: 10%;
@@ -477,48 +492,8 @@ a {
     z-index: 999;
 }
 @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%;
-		right: -40vw
-	}
+	
   }
-
-  @media screen and (max-width: 1851px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
-  @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
-  @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
-  @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
-  @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
-  @media screen and (max-width: 1951px) {
-	.side-panel {
-		width: 45%
-	}
-  }
-
 
 
 
@@ -842,4 +817,52 @@ a {
 	justify-content: center;
 	height: fit-content;
 	z-index: 1001;
+}
+
+.projectphotos {
+	width:100%;
+	height:30%;
+	bottom:0%;
+	display: block;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	background-color: dodgerblue;
+}
+
+.ppimage1 {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	top:20%; 
+	animation: ppimage1 8s linear infinite;
+}
+
+.ppimage2 {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	top:20%; 
+}
+
+.ppimage3 {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	top:20%; 
+}
+
+@keyframes ppimage1 {
+	0% {
+		transform: translateX(0vw);
+	}
+	100% {
+		transform: translateX(100vw);
+	}
 }
