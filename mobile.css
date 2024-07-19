@@ -252,7 +252,7 @@ h1 {
 	display:flex;
 	position: fixed;
 	left:5%;
-	top:40%;
+	top:35%;
 }
 
 
@@ -698,17 +698,72 @@ a {
 .sitetitle1 {
 	color:white;
 	font-size: 8vw;
-	margin-top:92%;
+	margin-top:87%;
 	display: block;
 	position: fixed;
 	mix-blend-mode: difference;
 }
 .sitetitle2 {
 	color:white;
-	font-size: 3vw;
-	margin-top:103%;
+	font-size: 4vw;
+	margin-top:98%;
 	margin-left:20%;
 	display: block;
 	position: fixed;
 	mix-blend-mode: difference;
+}
+
+.ppimage3 {
+	display:none;
+}
+
+.ppimage1 {
+	position: absolute;
+	opacity:0;
+	animation: ppimage1 30s linear infinite;
+}
+.ppimage2 {
+	position: absolute;
+	margin-top:130%;
+}
+.ppimage3 {
+	position: absolute;
+}
+.ppimage4 {
+	position: absolute;
+	margin-top:130%;
+}
+
+
+.textppimage {
+	color:white;
+	font-size: 4vw;
+	display: block;
+}
+
+@keyframes ppimage1 {
+	0% {
+		opacity:0;
+	}
+	32% {
+		opacity:0;
+	}
+	33% {
+		opacity:1;
+	}
+	65% {
+		opacity:1;
+	}
+	66% {
+		opacity:1;
+	}
+	98% {
+		opacity:1;
+	}
+	99% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
 }
